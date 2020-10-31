@@ -1,0 +1,13 @@
+{
+    "name": "k2grey/twig-implementation",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Grégory Troupenat",
+            "email": "gregory.troupenat@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.1"
+    }
+}

@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Twig implementation{% endblock %}
+
+{% block content %}
+    <div class="row">
+        {% for product in products %}
+            <div class="card col-4">
+                {{ product }}
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}
